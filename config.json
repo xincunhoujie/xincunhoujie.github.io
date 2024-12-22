@@ -3,7 +3,7 @@
     "title":"长大后我就成了你",
     "subTitle":"嘿嘿，这是怎样的一个世界啊！",
     "avatarUrl":"https://avatars.githubusercontent.com/u/177316256?s=400&u=6a7403b26e4996a9dd3505d89a70367c1ce450aa&v=4",
-    "indexStyle":"<link href='css.css' rel='stylesheet' />",
+    "indexStyle":"<link href='index.css' rel='stylesheet' />",
     "style":"<link href='css.css' rel='stylesheet' />",
     "needComment":0,
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
