@@ -6,6 +6,7 @@
     "indexStyle":"<link href='https://weiwei.sitesi.tc/index.css' rel='stylesheet' />",
     "style":"<link href='https://weiwei.sitesi.tc/css.css' rel='stylesheet' />",
     "needComment":0,
+    "singlePage":["about"],
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
     "GMEEK_VERSION":"last"
