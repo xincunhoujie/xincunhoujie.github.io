@@ -8,5 +8,10 @@
     "needComment":0,
     "singlePage":["about"],
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
+    "themeMode":"fix",
+"dayTheme":"light",
+"nightTheme":"github-light",
+
     "GMEEK_VERSION":"last"
+
 }
