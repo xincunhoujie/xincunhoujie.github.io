@@ -1,0 +1,92 @@
+/*
+#content div:nth-of-type(1) {
+            display: none;
+ }
+*/
+html {
+            background: url('https://weiwei.sitesi.tc/bj.png') ;
+}
+body {
+  max-width: 885px;
+  margin: 180px auto;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.25;
+  background: rgba(234, 234, 234, 0.6);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  position: relative;
+}
+/*增加页顶图片*/
+#header::after {
+    content:url('https://weiwei.sitesi.tc/tunian.png');
+    position: absolute;
+   top: -139px;
+  right: 20px;
+  }
+/*重设头像圆角，改圆形为方形*/
+.circle {
+  border-radius: 10px !important;
+}
+.avatar:hover{transform: scale(1.2) !important ;border-radius: 50% !important;}
+/* 首页列表圆角*/
+.border {
+  border-radius: 8px;
+}
+#header h1 {
+    margin-bottom: 10px;
+}
+#header h1 a {
+  font-size: 30px;
+  margin-left: 13px;
+  letter-spacing: 2px;
+}
+#footer{line-height: 2;}
+#footer a{color: var(--fgColor-default, var(--color-fg-default));}
+#footer1::before{
+  content: "地址:湖南长沙镖子岭血尸墓 \00a0 \00a0 电话：1390000000 \00a0 \00a0 Email：menyouping@188.com";
+  display: block;
+}
+
+/*自定义html*/
+.xinhtml{
+    font-size: 20px;
+    color: blueviolet;
+    text-shadow: 0 0 5px  rgba(0, 0, 0, 0.3);
+}
+.hengfu img{
+    max-width: 100%;
+   border-radius: 8px;
+   margin-top: 20px;
+}
+/****/
+@media (max-width: 600px) {
+
+ body {
+  margin: 150px 20px;
+}
+   /*手机端定位网站名称到头部图像上边*/       
+  .blogTitle {
+    display: block;
+   position: absolute;
+    top: -124px;
+   left: 10px;
+    color: dimgray !important;
+  }
+/*顶部图片在手机端居中并且水平反转*/
+#header::after {
+  right: unset;
+  transform: scaleX(-1);
+  left: -14px;
+  }
+   
+            /*清除列表的最小宽度*/
+.SideNav {
+  min-width: unset;
+}
+        #footer1::before {
+         content: "地址:湖南长沙镖子岭血尸墓\A 电话：1390000000\A Email：heimaojingzhang@188.com";
+        white-space: pre;
+    }
+}
