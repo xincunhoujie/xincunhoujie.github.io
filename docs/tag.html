@@ -7,8 +7,8 @@
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     
     <link rel="icon" href="https://avatars.githubusercontent.com/u/177316256?s=400&u=6a7403b26e4996a9dd3505d89a70367c1ce450aa&v=4">
-<meta name="description" content="黑仔の笔记 search page">
-<title>黑仔の笔记 - Tag</title>
+<meta name="description" content="闷油瓶笔记 search page">
+<title>闷油瓶笔记 - Tag</title>
 
 </head>
 <style>
@@ -73,7 +73,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <nav class="SideNav"></nav>
 <div class="notFind" style="display:none;font-size:24px;margin:8px;">Not Find</div>
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://xincunhoujie.github.io">黑仔の笔记</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://xincunhoujie.github.io">闷油瓶笔记</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -208,7 +208,7 @@ function setClassDisplay(label){
     let lists = document.getElementsByClassName("lists");
     let tagTitle = document.getElementsByClassName("tagTitle")[0];
     tagTitle.innerHTML="Tag #"+label;
-    document.title=label+" - 黑仔の笔记";
+    document.title=label+" - 闷油瓶笔记";
     document.getElementsByClassName("subnav-search-input")[0].value='';
     if(label=="All"){
         for(let i = 0; i < lists.length; i++){lists[i].style.display='block';}
@@ -236,8 +236,8 @@ function searchShow(){
     let tagTitle = document.getElementsByClassName("tagTitle")[0];
     let searchInput = document.getElementsByClassName("subnav-search-input")[0].value;
     tagTitle.innerHTML="Search #"+searchInput;
-    if(searchInput==''){document.title="Search - 黑仔の笔记";}
-    else{document.title=searchInput+" - 黑仔の笔记";}
+    if(searchInput==''){document.title="Search - 闷油瓶笔记";}
+    else{document.title=searchInput+" - 闷油瓶笔记";}
     let a=0;
     window.location.hash="#"+(searchInput);
     for(let i = 0; i < lists.length; i++){
