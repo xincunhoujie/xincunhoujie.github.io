@@ -4,7 +4,7 @@
  }
 */
 html {
-            background: url('https://weiwei.sitesi.tc/bj.png') ;
+            background: url('https://xincunhoujie.github.io/bj.png') ;
 }
 body {
   max-width: 885px;
@@ -20,7 +20,7 @@ body {
 }
 /*增加页顶图片*/
 #header::after {
-    content:url('https://weiwei.sitesi.tc/tunian.png');
+    content:url('https://xincunhoujie.github.io/tunian.png');
     position: absolute;
    top: -139px;
   right: 20px;
