@@ -1,6 +1,6 @@
 
 html {
-            background: url('https://xincunhoujie.github.io/bj.png') ;
+            background: url('bj.png') ;
 }
 body {
   max-width: 885px;
@@ -20,7 +20,7 @@ body p::selection{
 }
 /*增加页顶图片*/
 #header::after {
-    content:url('https://xincunhoujie.github.io/tunian.png');
+    content:url('tunian.png');
     position: absolute;
    top: -139px;
   right: 20px;
@@ -85,7 +85,7 @@ top: 179px !important;
   display: none !important;
 }
     #footer1::before {
-        content: "地址:湖南长沙镖子岭血尸墓\A 电话：1390000000\A Email：heimaojingzhang@188.com";
+        content: "地址:湖南长沙镖子岭血尸墓\A 电话：1390000000\A Email：menyouping@188.com";
         white-space: pre;
     }
 }
