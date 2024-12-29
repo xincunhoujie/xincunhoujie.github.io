@@ -74,6 +74,11 @@ body {
    left: 10px;
     color: dimgray !important;
   }
+    #avatarImg {
+   position: absolute;
+    top: -124px;
+   left: 10px;
+  }
 /*顶部图片在手机端居中并且水平反转*/
 #header::after {
   right: unset;
