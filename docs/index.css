@@ -80,6 +80,7 @@ body {
    top: -81px;
     left: 229px;
     z-index: 10;
+    transform: scaleX(-1);
   }
    /*手机端将头像放大些*/
     .avatar {
