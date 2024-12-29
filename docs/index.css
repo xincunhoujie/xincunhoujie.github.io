@@ -66,13 +66,21 @@ body {
  body {
   margin: 150px 20px;
 }
-   /*手机端定位网站名称到头部图像上边*/       
+   /*手机端定位网站名称到头部图像上边*/      
+            #header h1 a {
+  font-size: 20px;
+}
   .blogTitle {
     display: block;
-   position: absolute;
-    top: -124px;
-   left: 10px;
-    color: dimgray !important;
+    position: absolute;
+    top: -123px;
+    left: 14px;
+    color: #fff !important;
+    z-index: 10;
+    border: 1px solid #794082;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background-color: #29a425;
   }
    /*手机端将头像放到火车头*/
     #avatarImg {
