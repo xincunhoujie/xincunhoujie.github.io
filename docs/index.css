@@ -62,7 +62,9 @@ body {
 }
 /****/
 @media (max-width: 600px) {
-
+html {
+            background:none;
+}
  body {
   margin: 150px 20px;
 }
