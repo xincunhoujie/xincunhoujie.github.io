@@ -45,7 +45,7 @@ body {
 #header h1 a {
   font-size: 30px;
   margin-left: 13px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 #footer{line-height: 2;}
 #footer a{color: var(--fgColor-default, var(--color-fg-default));}
