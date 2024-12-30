@@ -5,4 +5,4 @@ element.insertAdjacentHTML('beforebegin', '<div  class="hengfu"><a href="https:/
 
 var title8 = document.getElementById('.title-right a');
 //div.textContent = title8.getAttribute('title');
-title8.insertAdjacentHTML('beforebegin', title8.getAttribute('title'));
+title8.insertAdjacentHTML('beforebegin', '黑猫');
