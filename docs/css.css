@@ -19,6 +19,12 @@ body p::selection{
     color: darkred;
     background-color: gold;
 }
+/*菜单文字颜色*/
+.title-right a{
+      color: var(--fgColor-default, var(--color-fg-default));      
+}
+
+
 /*增加页顶图片*/
 #header::after {
     content:url('tunian.png');
