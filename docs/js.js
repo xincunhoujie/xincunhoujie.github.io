@@ -7,18 +7,15 @@ element.insertAdjacentHTML('beforebegin', '<div  class="hengfu"><a href="https:/
 //获取视口，判断是否输出导航文字标签=======
 //const viewportWidth = document.body.clientWidth;
 const viewportWidth = window.innerWidth;
-alert(viewportWidth);
+//alert(viewportWidth);
 
  if (viewportWidth > 600) {
-            var title7 = document.getElementsByClassName("btn");
+  //获取图标导航的数量
+        var title7 = document.getElementsByClassName("btn");
+  //根据数量将title内容循环输出
         for (var i = 0; i < title7.length; i++) {
                 var title8 = document.getElementsByClassName("btn")[i];
                 title8.innerHTML += title8.getAttribute('title');
         }
-        } else {
-            document.write("小于600");
         }
-
-
-
 //获取视口，判断是否输出导航文字标签=======结束
