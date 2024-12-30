@@ -3,8 +3,8 @@ let element = document.getElementById('footer'); // 根据容器的id获取元�
 
 element.insertAdjacentHTML('beforebegin', '<div  class="hengfu"><a href="https://weiwei.sitesi.tc/" target="_blank"><img src="/hf.gif" ></a></div>');
 /*获取视口*/
-const viewportWidth = document.body.clientWidth;
-
+//const viewportWidth = document.body.clientWidth;
+const viewportWidth = window.innerWidth;
 alert(viewportWidth);
 //获取图标导航的数量
 var title7 = document.getElementsByClassName("btn");
