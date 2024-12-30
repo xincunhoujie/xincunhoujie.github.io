@@ -9,8 +9,8 @@ element.insertAdjacentHTML('beforebegin', '<div  class="hengfu"><a href="https:/
 //alert('数量', classCount)
 
 //var title8 = document.getElementById('btn');
-var title7 = document.getElementsByClassName("btn")
-alert(title7.length)
+var title7 = document.getElementsByClassName("btn");
+alert(title7.length);
 var title8 = document.getElementsByClassName("btn")[0];
 //div.textContent = title8.getAttribute('title');
 //title8.insertAdjacentHTML('beforebegin', title8.getAttribute('title'));
