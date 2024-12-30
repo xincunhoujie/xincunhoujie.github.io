@@ -8,14 +8,4 @@ element.insertAdjacentHTML('beforebegin', '<div  class="hengfu"><a href="https:/
 //const viewportWidth = document.body.clientWidth;
 const viewportWidth = window.innerWidth;
 alert(viewportWidth);
-if ( viewportWidth > 600px ) {   
-    //获取图标导航的数量
-    var title7 = document.getElementsByClassName("btn");
-    //alert(title7.length);
-    //根据数量将title内容循环输出
-    for (var i = 0; i < title7.length; i++) {   
-    var title8 = document.getElementsByClassName("btn")[i];
-    title8.innerHTML += title8.getAttribute('title'); 
-    }
- }
-//获取视口，判断是否输出导航文字标签=======结束
+
