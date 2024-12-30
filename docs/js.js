@@ -5,8 +5,8 @@ element.insertAdjacentHTML('beforebegin', '<div  class="hengfu"><a href="https:/
 
 
 var classCount = document.querySelectorAll('.btn').length;
-console.log('数量', classCount);
-
+//console.log('数量', classCount);
+alert('数量', classCount)
 //var title8 = document.getElementById('btn');
 var title8 = document.getElementsByClassName("btn")[0];
 //div.textContent = title8.getAttribute('title');
