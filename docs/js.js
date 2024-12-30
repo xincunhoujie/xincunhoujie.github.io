@@ -6,7 +6,7 @@ element.insertAdjacentHTML('beforebegin', '<div  class="hengfu"><a href="https:/
 
 //获取视口，判断是否输出导航文字标签=======
 //const viewportWidth = document.body.clientWidth;
-var viewportWidth = window.innerWidth;
+let viewportWidth = window.innerWidth;
 alert(viewportWidth);
 if ( viewportWidth > 600px ) {   
     //获取图标导航的数量
