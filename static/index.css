@@ -30,6 +30,11 @@ body {
   border-radius: 10px !important;
 }
 .avatar:hover{transform: scale(1.2) !important ;border-radius: 50% !important;}
+/*菜单文字颜色*/
+.title-right a{
+      color: var(--fgColor-default, var(--color-fg-default));      
+}
+
 /* 首页列表圆角*/
 .border {
   border-radius: 8px;
